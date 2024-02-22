@@ -1,3 +1,5 @@
+import React, { useEffect } from 'react';
+import { Redirect } from '@docusaurus/router';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
@@ -35,7 +37,7 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
@@ -50,15 +52,13 @@ function Feature({Svg, title, description}) {
 }
 
 export default function HomepageFeatures() {
-  return (
-    <section className={styles.features}>
-      <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
-        </div>
-      </div>
-    </section>
-  );
+  useEffect(() => {
+    // Redirect to the desired URL after the component mounts
+    setTimeout(() => {
+      window.location.href = '/docs/intro';
+    }, ); // Adjust the timeout delay as needed
+  }, []);
+
+  // Render the component with a redirect
+  return <Redirect to="/docs/intro" />;
 }
