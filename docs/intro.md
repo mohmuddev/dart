@@ -2,46 +2,74 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Dart Outline
 
-Let's discover **Docusaurus in less than 5 minutes**.
+1. **Basic Syntax**:
+   - Print Statement
+   - Operators
+   - Comments
+   - Variables
+   - var, const, and final Variables
+   - final vs const variables
+   - Optional Variables/ Nullable Variables
 
-## Getting Started
+2. **Control Flow**:
+   - If Condition
+   - Ternary Operators
+   - Switch Statement
+   - For Loop
+   - While Loop
+   - Do While Loop
+   - continue keyword
+   - break keyword
 
-Get started by **creating a new site**.
+3. **Functions**:
+   - Functions
+   - Returning Values from Functions (including Nullable Values)
+   - Function Arguments (Positional, Named, and Named Records)
+   - Returning Functions from Functions
+   - Arrow Function
+   - Anonymous Functions
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+4. **Object-Oriented Programming (OOP)**:
+   - Classes
+   - Constructor
+   - this keyword
+   - Positional Constructor Arguments
+   - Immutable Classes
+   - Named Constructor Arguments
+   - Private Variables
+   - Getters
+   - Setters
+   - Static Variables
+   - Static Functions
+   - Inheritance
+   - implements keyword
+   - Abstract Classes
+   - Polymorphism
+   - Abstraction
+   - Encapsulation
+   - Mixins
+   - Class Modifiers
 
-### What you'll need
+5. **Collections**:
+   - Lists
+   - Sets
+   - Maps
+   - Enums
+   - Enhanced Enums
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+6. **Exception Handling**:
+   - Exception Handling
 
-## Generate a new site
+7. **Concurrency and Asynchronous Programming**:
+   - Futures (Promises)
+   - Streams
 
-Generate a new Docusaurus site using the **classic template**.
+8. **Advanced Topics**:
+   - Patterns
+   - Extensions
+   - Creating Records
+   - Patterns & Pattern Matching
 
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+9. 
