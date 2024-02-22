@@ -3,17 +3,20 @@ sidebar_position: 1
 ---
 
 # Dart Outline
+1. **Data Types**:
+   - Numeric Data Types
+   - Boolean Data Type
+   - Textual Data Type
+   - Collection Data Types
+   - Special Data Types
 
-1. **Basic Syntax**:
-   - Print Statement
-   - Operators
-   - Comments
+2. **Variables**:
    - Variables
    - var, const, and final Variables
    - final vs const variables
    - Optional Variables/ Nullable Variables
 
-2. **Control Flow**:
+3. **Control Flow**:
    - If Condition
    - Ternary Operators
    - Switch Statement
@@ -23,7 +26,7 @@ sidebar_position: 1
    - continue keyword
    - break keyword
 
-3. **Functions**:
+4. **Functions**:
    - Functions
    - Returning Values from Functions (including Nullable Values)
    - Function Arguments (Positional, Named, and Named Records)
@@ -31,7 +34,7 @@ sidebar_position: 1
    - Arrow Function
    - Anonymous Functions
 
-4. **Object-Oriented Programming (OOP)**:
+5. **Object-Oriented Programming (OOP)**:
    - Classes
    - Constructor
    - this keyword
@@ -52,24 +55,22 @@ sidebar_position: 1
    - Mixins
    - Class Modifiers
 
-5. **Collections**:
+6. **Collections**:
    - Lists
    - Sets
    - Maps
    - Enums
    - Enhanced Enums
 
-6. **Exception Handling**:
+7. **Exception Handling**:
    - Exception Handling
 
-7. **Concurrency and Asynchronous Programming**:
+8. **Concurrency and Asynchronous Programming**:
    - Futures (Promises)
    - Streams
 
-8. **Advanced Topics**:
+9. **Advanced Topics**:
    - Patterns
    - Extensions
    - Creating Records
    - Patterns & Pattern Matching
-
-9. 
