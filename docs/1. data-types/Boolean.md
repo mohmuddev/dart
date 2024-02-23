@@ -9,7 +9,7 @@ sidebar_position: 3
 In Dart, the boolean data type represents two values: `true` and `false`. It's used to express logical states, such as whether a condition is true or false.
 
 #### Example:
-```java
+```Javascript
 bool isRaining = true;
 bool isSunny = false;
 ```
@@ -26,7 +26,7 @@ Comparison operators are used to compare values. They return a boolean value (`t
 - `<=` : Less than or equal to
 
 #### Example:
-```java
+```Javascript
 int a = 10;
 int b = 5;
 
@@ -47,7 +47,7 @@ Logical operators are used to combine boolean expressions. Dart supports three l
 - `!`  : Logical NOT
 
 #### Example:
-```java
+```Javascript
 bool isSunny = true;
 bool isWarm = false;
 
@@ -69,7 +69,7 @@ print(stayInside); // true
 Conditional operators are used to simplify conditional expressions. Dart has a conditional operator (`? :`) which is often referred to as the ternary operator.
 
 #### Example:
-```java
+```Javascript
 int age = 20;
 String status = (age >= 18) ? 'Adult' : 'Minor';
 print(status); // Adult
