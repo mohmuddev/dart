@@ -8,7 +8,6 @@ sidebar_position: 1
    - Boolean Data Type
    - Textual Data Type
    - Collection Data Types
-   - Special Data Types
 
 2. **Variables**:
    - Variables
