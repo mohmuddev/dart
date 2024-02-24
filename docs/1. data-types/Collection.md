@@ -124,7 +124,7 @@ You can use enums in situations where you have a predefined set of related const
 
 Now, let's combine the explanation with the previous code example:
 
-```dart
+```javascript
 // Define an enum for Approval Status
 enum ApprovalStatus {
   pending,
