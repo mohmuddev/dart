@@ -54,21 +54,14 @@ sidebar_position: 1
    - Mixins
    - Class Modifiers
 
-6. **Collections**:
-   - Lists
-   - Sets
-   - Maps
-   - Enums
-   - Enhanced Enums
-
-7. **Exception Handling**:
+6. **Exception Handling**:
    - Exception Handling
 
-8. **Concurrency and Asynchronous Programming**:
+7. **Concurrency and Asynchronous Programming**:
    - Futures (Promises)
    - Streams
 
-9. **Advanced Topics**:
+8. **Advanced Topics**:
    - Patterns
    - Extensions
    - Creating Records
