@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Dart Outline
+# Outline
 1. **Data Types**:
    - Numeric Data Types
    - Boolean Data Type
