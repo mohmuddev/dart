@@ -2,7 +2,8 @@
 sidebar_position: 1
 ---
 
-# Outline
+# --- Outline ---
+
 1. **Data Types**:
    - Numeric Data Types
    - Boolean Data Type
