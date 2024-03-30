@@ -46,5 +46,16 @@ git add . && git commit -m "updated" && git push -u origin main
 
 
 ```javascript
+    void main(){
+  var list = [1,2,3,4,5,6,7,8,9,10];
+  var total = list.reduce(totalist);
+  
+  print(total)
+}
 
+
+int totalist(int prev, int next){
+  return prev + next;
+
+}
 ```
